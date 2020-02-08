@@ -2,7 +2,8 @@
 
 let numValue1 = 10;
 //convert number value
-let strValue1= String(numValue1);
+let `*
+++strValue1= String(numValue1);
 console.log(strValue1);//10
 console.log(typeof(strValue1));//string
 
@@ -34,6 +35,9 @@ console.log(strValue3);//false //output is true when boolValue is true
  let numValue3= Number(boolValue3);
  console.log(numValue3);//1
   
+let strValue4=0;
+console.log(boolean(strValue4));//true
+console.log(boolean(number(strValue4)));//false
 
 
 
